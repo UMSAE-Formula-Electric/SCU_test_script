@@ -101,6 +101,16 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+
+		/**
+		*  _____ _____ _____ ____    _______        _
+		* / ____|  __ \_   _/ __ \  |__   __|      | |
+		*| |  __| |__) || || |  | |    | | ___  ___| |_
+		*| | |_ |  ___/ | || |  | |    | |/ _ \/ __| __|
+		*| |__| | |    _| || |__| |    | |  __/\__ \ |_
+		* \_____|_|   |_____\____/     |_|\___||___/\__|
+
+		*/
 	  HAL_GPIO_WritePin(ADC1_IN1_PA1_GPIO_Port, ADC1_IN1_PA1_Pin, GPIO_PIN_RESET);
 	  HAL_GPIO_WritePin(USART2_TX_PA2_GPIO_Port, USART2_TX_PA2_Pin, GPIO_PIN_RESET);
 	  HAL_GPIO_WritePin(USART2_RX_PA3_GPIO_Port, USART2_RX_PA3_Pin, GPIO_PIN_RESET);
@@ -140,10 +150,10 @@ int main(void)
 	  HAL_GPIO_WritePin(VBATT_PA7_GPIO_Port, VBATT_PA7_Pin, GPIO_PIN_SET);
 	  HAL_GPIO_WritePin(ADC1_IN14_PC4_GPIO_Port, ADC1_IN14_PC4_Pin, GPIO_PIN_SET);
 	  HAL_GPIO_WritePin(ADC1_IN15_PC5_GPIO_Port, ADC1_IN15_PC5_Pin, GPIO_PIN_SET);
-	  /*HAL_GPIO_WritePin(DBG_LEED1_BLUE_PE8_GPIO_Port, DBG_LEED1_BLUE_PE8_Pin, GPIO_PIN_SET);
+	  HAL_GPIO_WritePin(DBG_LEED1_BLUE_PE8_GPIO_Port, DBG_LEED1_BLUE_PE8_Pin, GPIO_PIN_SET);
 	  HAL_GPIO_WritePin(DBG_LED1_GREEN_PE9_GPIO_Port, DBG_LED1_GREEN_PE9_Pin, GPIO_PIN_SET);
 	  HAL_GPIO_WritePin(DBG_LED1_RED_PE10_GPIO_Port, DBG_LED1_RED_PE10_Pin, GPIO_PIN_SET);
-	  */HAL_GPIO_WritePin(RR_WHEEL_S_PD0_GPIO_Port, RR_WHEEL_S_PD0_Pin, GPIO_PIN_SET);
+	  HAL_GPIO_WritePin(RR_WHEEL_S_PD0_GPIO_Port, RR_WHEEL_S_PD0_Pin, GPIO_PIN_SET);
 	  HAL_GPIO_WritePin(RL_WHEEL_S_PD1_GPIO_Port, RL_WHEEL_S_PD1_Pin, GPIO_PIN_SET);
 	  HAL_GPIO_WritePin(FR_WHEEL_S_PD3_GPIO_Port, FR_WHEEL_S_PD3_Pin, GPIO_PIN_SET);
 	  HAL_GPIO_WritePin(FL_WHEEL_S_PD4_GPIO_Port, FL_WHEEL_S_PD4_Pin, GPIO_PIN_SET);
